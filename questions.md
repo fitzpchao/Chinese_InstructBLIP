@@ -1,7 +1,7 @@
 ![](./img/art.png)
-<div align="center">
-  <img src="./img/art.png" alt="Image" width="500"/>
-</div>
+<center>
+  ![Image](./img/art.png)
+</center>
 
 
 >Q：描述下这个图像
