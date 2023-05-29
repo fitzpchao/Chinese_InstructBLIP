@@ -1,6 +1,6 @@
 ![](./img/art.png)
 <center>
-  ![Image](./img/art.png)
+  ![](./img/art.png)
 </center>
 
 
