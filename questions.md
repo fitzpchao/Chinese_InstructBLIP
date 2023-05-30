@@ -1,13 +1,35 @@
-# 【骆驼读论文】我们测试了InstructBLIP和VisualGLM，他们竟然也认识坤坤
+# 【骆驼读论文】我们测试了InstructBLIP和VisualGLM，他们竟然也认识坤坤和娜娜
+
+## 这是一个warmup的小项目
 
 这个工作是武汉大学的庞超同学在和我讨论先找一个小项目练手的时候想到的。
 
-因为英文世界有很多非常不错的模型，比如Vicuna，他们的中文支持实际上是较弱的。
+因为英文世界有很多非常不错的模型，比如Vicuna-13B，他们的中文支持实际上是较弱的。
 
-讨论的时候Salesforce又放出了比BLIP2更强大的InstructBLIP。这是一个跨模态的模型，
+讨论的时候Salesforce又放出了比BLIP2更强大的[InstructBLIP](https://paperswithcode.com/paper/instructblip-towards-general-purpose-vision)。这是一个跨模态的模型，
 
 于是AI自媒体就有很多关于《超越GPT-4！华人团队爆火InstructBLIP抢跑看图聊天，开源项目横扫多项SOTA》
 
+正好这个时候智谱&清华也低调发布了[VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B/tree/main)。但是后者是一个中文模型，怎么和BLIP比较呢？
+
+所以我们就想到庞同学可以去测试一下，InstructBLIP接了翻译之后，和VisualGLM-6B去定性比了玩一玩。
+
+## online demo
+
+于是庞超同学就非常给力的把这个开发快速完成了。Demo如下图
+
+<div align="center">
+  <img src="./img/run_demo.gif" alt="Image"/>
+</div>
+
+在给定中文指令的时候，可以运行沈向洋老师他们团队的[燃灯翻译模型](https://huggingface.co/IDEA-CCNL/Randeng-Deltalm-362M-En-Zh)，转成英文问题
+
+然后点击run就可以去问询InstructBLIP
+
+然后可以进一步运行燃灯翻译模型转回来。
+
+
+## 那么
 
 <div align="center">
   <img src="./img/art.png" alt="Image" height="300"/>
