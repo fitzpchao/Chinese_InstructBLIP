@@ -1,6 +1,16 @@
+# 【骆驼读论文】我们测试了InstructBLIP和VisualGLM，他们竟然也认识坤坤
+
+这个工作是武汉大学的庞超同学在和我讨论先找一个小项目练手的时候想到的。
+
+因为英文世界有很多非常不错的模型，比如Vicuna，他们的中文支持实际上是较弱的。
+
+讨论的时候Salesforce又放出了比BLIP2更强大的InstructBLIP。这是一个跨模态的模型，
+
+于是AI自媒体就有很多关于《超越GPT-4！华人团队爆火InstructBLIP抢跑看图聊天，开源项目横扫多项SOTA》
+
 
 <div align="center">
-  <img src="./img/art.png" alt="Image"/>
+  <img src="./img/art.png" alt="Image" height="300"/>
 </div>
 
 >Q：描述下这个图像
